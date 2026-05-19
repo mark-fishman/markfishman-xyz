@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: #2c2c2c;
+    background: #fafafa;
+    line-height: 1.7;
+    padding: 3rem 1.5rem;
+}
+
+main {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.headshot {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.intro-text p {
+    margin-bottom: 0.6rem;
+    color: #444;
+}
+
+.location {
+    margin-top: 0.4rem;
+    font-size: 0.95rem;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 2.5rem 0;
+}
+
+h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    padding: 0.3rem 0;
+    color: #444;
+}
+
+ul li {
+    list-style: disc;
+    margin-left: 1.2rem;
+}
+
+ul li::before {
+    content: none;
+}
+
+a {
+    color: #2c2c2c;
+    text-decoration: underline;
+    text-decoration-color: #bbb;
+    text-underline-offset: 3px;
+    transition: text-decoration-color 0.2s;
+}
+
+a:hover {
+    text-decoration-color: #2c2c2c;
+}
+
+.contact p {
+    color: #444;
+    margin-bottom: 0.75rem;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.5rem;
+}
+
+.links li::before {
+    content: none;
+}
+
